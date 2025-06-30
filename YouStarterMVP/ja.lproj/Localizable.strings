@@ -1,0 +1,236 @@
+/* 
+  Localizable.strings (Japanese)
+  YouStarterMVP
+*/
+
+// Tab titles
+"tab_home" = "ホーム";
+"tab_results" = "成果";
+"tab_challenge" = "覚悟チャレンジ";
+"tab_wallet" = "ウォレット";
+"tab_settings" = "設定";
+
+// Common
+"ok" = "OK";
+"cancel" = "キャンセル";
+"save" = "保存";
+"close" = "閉じる";
+"next" = "次へ";
+"skip" = "スキップ";
+"start" = "開始";
+"complete" = "完了";
+"failed" = "失敗";
+
+// Main message
+"show_your_resolve" = "稼ぐ覚悟を見せてくれ。";
+
+// Challenge related
+"challenge_30_days" = "覚悟の30日を始める";
+"challenge_success" = "チャレンジ成功！";
+"challenge_failed" = "チャレンジ失敗！";
+"challenge_continue" = "コンティニュー";
+"remaining_days" = "残り: %d日";
+"target_amount" = "目標金額: %d円";
+"home_intro_text" = "覚悟の30日を始めて、新しい自分に出会おう！";
+"challenge_completed_message" = "チャレンジ成功おめでとうございます！\\n新しいチャレンジを開始しましょう！";
+"challenge_failed_message" = "チャレンジ失敗。再挑戦するには新しいチャレンジを開始してください。";
+"video_time_not_set" = "動画再生時間が設定されていません。設定画面で時間を設定してください。";
+"waiting_for_playback" = "再生待機中…";
+"waiting_for_scheduled_time" = "再生待機中";
+"next_playback_time" = "次回の再生は %@ です。";
+
+"goal_achieved" = "目標達成！";
+"continue_habit_tomorrow" = "明日からも習慣を継続しよう";
+
+// Challenge flow alerts
+"challenge_select_credits" = "覚悟クレジットを選択";
+"challenge_select_credits_message" = "チャレンジに必要な覚悟クレジットを選択してください。";
+"challenge_target_amount_title" = "目標金額設定";
+"challenge_target_amount_message" = "このチャレンジでの目標金額を入力してください。";
+"challenge_target_placeholder" = "目標金額 (例: 50000)";
+"challenge_set" = "設定";
+"challenge_start_title" = "チャレンジ開始";
+"challenge_start_message" = "%d覚悟クレジットを消費して30日チャレンジを開始しますか？\\n目標金額: %d円";
+"challenge_start_button" = "開始";
+"challenge_success_title" = "成功";
+"challenge_start_success_message" = "チャレンジを開始しました！";
+"challenge_failed_title" = "失敗";
+"challenge_start_failed_message" = "チャレンジを開始できませんでした。\\n覚悟クレジットが不足しているか、\\n既に進行中のチャレンジがあります。";
+"error_title" = "エラー";
+"error_invalid_amount" = "有効な目標金額を入力してください。";
+"error_invalid_video_id" = "動画IDが無効です。";
+"resolve_credit_1000" = "1000覚悟クレジット";
+"resolve_credit_5000" = "5000覚悟クレジット";
+"resolve_credit_10000" = "10000覚悟クレジット";
+
+// Tutorial
+"tutorial_step1" = "①覚悟クレジットを購入しよう。これは、覚悟チャレンジのエントリー代だ。「稼ぐ」覚悟を見せてくれ。";
+"tutorial_step2" = "覚悟の３０日間を始めようをタップ。自分の入金した覚悟の金額を選択しよう。";
+"tutorial_step3" = "この覚悟チャレンジに成功すると、覚悟クレジットは返済され、さらにもう一度挑戦することが可能だ。";
+"tutorial_step4" = "途中で失敗すると、この覚悟クレジットは返還されない。覚悟を決めて必ず成功させるんだ。";
+"tutorial_go_to_wallet" = "ウォレットへ";
+"tutorial_go_to_home" = "ホームへ";
+
+// Settings
+"settings" = "設定";
+"language" = "言語";
+"language_selection" = "言語選択";
+"country" = "国・地域";
+"country_selection" = "国・地域選択";
+"video_mode" = "動画モード";
+"recommended" = "おすすめ（管理者キーワード）";
+"keyword" = "キーワード（カスタム検索）";
+"play_time" = "再生時刻";
+"save_and_close" = "保存して閉じる";
+"admin_login" = "管理者ログイン";
+"settings_saved_title" = "保存完了";
+"settings_saved_message" = "設定を保存しました。";
+
+// Language change
+"language_changed_title" = "言語変更";
+"language_changed_message" = "言語を変更しました。";
+"restart_app" = "今すぐ終了";
+
+// Termination recommendation
+"termination_recommendation_title" = "再起動が必要";
+"termination_recommendation_message" = "言語変更を適用するにはアプリの再起動が必要です。今すぐ終了しますか？";
+"later" = "後で";
+
+// Video
+"watch_now" = "今すぐ見る";
+"watch_again" = "もう一度見る";
+"video_completed" = "目標達成！";
+"continue_habit" = "明日からも習慣を継続しよう";
+
+// Money
+"input_amount" = "稼いだ額を入力";
+"input_amount_message" = "今日稼いだ金額を入力してください";
+"amount_placeholder" = "金額";
+"add" = "追加";
+
+// Wallet
+"wallet_current_balance" = "現在の覚悟クレジット残高: %d覚悟クレジット";
+"wallet_purchase_credits" = "覚悟クレジットを購入";
+"wallet_purchase_credits_amount" = "%@ 覚悟クレジットを購入";
+"wallet_restore_purchases" = "購入を復元";
+"wallet_test_add_credits" = "テスト: 1000覚悟クレジット追加";
+
+// Challenge tab
+"challenge_in_progress" = "チャレンジ中";
+"continue_challenge_button" = "コンティニュー (1000覚悟クレジット)";
+"test_challenge_success" = "テスト: チャレンジ成功";
+"test_challenge_failure" = "テスト: チャレンジ失敗";
+
+// Money amounts and goals
+"target" = "目標";
+"earned_amount" = "稼いだ額";
+"remaining_days_format" = "残り%d日";
+"yen_format" = "%d円";
+"input_amount_alert_title" = "稼いだ額を入力";
+"input_amount_alert_message" = "今日稼いだ金額を入力してください";
+
+// ProfileViewController (Challenge tab)
+"continue_challenge_confirmation" = "チャレンジ継続";
+"continue_challenge_confirmation_message" = "%d覚悟クレジットを消費してチャレンジを継続しますか？";
+"continue_challenge_button_text" = "継続";
+"challenge_continue_error" = "エラー";
+"challenge_continue_error_message" = "チャレンジを継続できませんでした。トークンが不足している可能性があります。";
+"challenge_start_new" = "チャレンジ開始";
+"challenge_start_new_message" = "新しいチャレンジを開始します。";
+"challenge_continue_failed_today" = "チャレンジ失敗。再挑戦するには新しいチャレンジを開始してください。";
+"challenge_continue_failed_question" = "ここでやめていいのか？";
+"sayings_failure" = "ここでやめていいのか？";
+"sayings_success" = "よく頑張りました！";
+"challenge_status_in_progress" = "チャレンジ中！";
+"challenge_status_failed" = "チャレンジ失敗！";
+"challenge_status_success" = "チャレンジ成功！";
+"challenge_completion_message" = "おめでとうございます！再びチャレンジに挑戦しますか？";
+"yes" = "はい";
+"continue_text" = "継続";
+
+// GuaranteePlanViewController
+"guarantee_plan" = "保証金プラン";
+"start_plan" = "プランを開始する";
+"error" = "エラー";
+
+// Sayings array
+"saying_0" = "継続は力なり。";
+"saying_1" = "千里の道も一歩から。";
+"saying_2" = "ローマは一日にして成らず。";
+"saying_3" = "小さな努力が大きな成果を生む。";
+"saying_4" = "諶めたらそこで試合終了だよ。";
+"saying_5" = "成功への道は常に建設中。";
+"saying_6" = "今日できることを明日に延ばすな。";
+"saying_7" = "努力は必ず報われる。";
+"saying_8" = "一歩ずつ、着実に。";
+"saying_9" = "夢を追うなら、まず行動から。";
+"saying_10" = "困難は成長の機会。";
+"saying_11" = "失敗は成功のもと。";
+"saying_12" = "信じる心が道を拓く。";
+"saying_13" = "自分を信じろ。";
+"saying_14" = "限界は自分で作るもの。";
+"saying_15" = "挑戦なくして成功なし。";
+"saying_16" = "努力に勝る天才なし。";
+"saying_17" = "未来は今日から始まる。";
+"saying_18" = "行動こそが真実。";
+"saying_19" = "希望は努力の母。";
+"saying_20" = "継続こそが成功の鍵。";
+"saying_21" = "小さな積み重ねが大きな差を生む。";
+"saying_22" = "目標に向かって前進あるのみ。";
+"saying_23" = "自分との戦いに勝て。";
+"saying_24" = "努力は裏切らない。";
+"saying_25" = "成功は準備から生まれる。";
+"saying_26" = "諶めない限り、道は開ける。";
+"saying_27" = "今日が一番若い日。";
+"saying_28" = "夢は逃げない、逃げるのはいつも自分だ。";
+"saying_29" = "最後までやり遂げろ。";
+
+// Free plan video controls
+"stop_video_confirmation_title" = "動画を停止しますか？";
+"stop_video_confirmation_message" = "動画の視聴をやめてもいいですか？一度やめるともう一度見ることができません。";
+"stop_video" = "停止";
+
+// Background notifications (legacy - now used for task kill warnings)
+"background_notification_title" = "動画再生の時間です";
+"background_notification_message" = "タップして今日の動画を視聴しましょう。アプリがバックグラウンドで動いていないと通知が遅れることがあります。";
+
+// Task kill warning notifications
+"task_kill_warning_title" = "アプリの異常終了を検知しました";
+"task_kill_warning_message" = "アプリが予期せず終了した可能性があります。習慣の継続に影響する場合があります。";
+
+// Daily watch reminder notifications
+"daily_watch_reminder_title" = "動画視聴リマインダー";
+"daily_watch_reminder_message" = "今日はまだ5分以上の動画視聴が完了していません。チャレンジを継続するために動画を視聴してください。";
+
+// Daily alarm notifications
+"daily_notification_title" = "おはようございます！";
+"daily_notification_body" = "動画再生のお時間です。";
+"notification_play_action" = "再生する";
+
+// Mission failure notifications
+"mission_failed_title" = "ミッションに失敗した。";
+"mission_failed_message" = "だが努力はゼロになるわけではない。ここで終わっていいのか？";
+
+// Admin interface
+"admin_password_label" = "管理者パスワード";
+"admin_password_placeholder" = "パスワードを入力";
+"admin_login_button" = "ログイン";
+"admin_panel_title" = "管理者パネル";
+"admin_save_button" = "保存";
+"admin_keyword_management" = "おすすめ動画キーワード管理";
+"admin_keyword_description" = "おすすめモードとキーワードモードで使用されるキーワードです。\n日本語で入力してください。ユーザーの言語設定に合わせて自動翻訳されます。";
+"admin_add_keyword" = "+ キーワード追加";
+"admin_delete_button" = "削除";
+"admin_save_complete" = "保存完了";
+"admin_keywords_updated" = "おすすめ動画キーワードを更新しました";
+"admin_keyword_placeholder" = "検索キーワード (日本語)";
+"admin_password_incorrect" = "パスワードが違います。";
+
+// Plan status
+"plan_status_title" = "プラン進捗";
+"mission_complete_today" = "今日のミッション完了";
+"streak_progress_format" = "連続達成: %d / 30 日";
+"status_refunded" = "返金済み";
+"status_charged" = "課金済み";
+"deadline_format" = "次の再生期限: %@";
+"no_deadline_set" = "再生期限が設定されていません";

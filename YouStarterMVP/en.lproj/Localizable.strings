@@ -1,0 +1,236 @@
+/* 
+  Localizable.strings (English)
+  YouStarterMVP
+*/
+
+// Tab titles
+"tab_home" = "Home";
+"tab_results" = "Results";
+"tab_challenge" = "Resolve Challenge";
+"tab_wallet" = "Wallet";
+"tab_settings" = "Settings";
+
+// Common
+"ok" = "OK";
+"cancel" = "Cancel";
+"save" = "Save";
+"close" = "Close";
+"next" = "Next";
+"skip" = "Skip";
+"start" = "Start";
+"complete" = "Complete";
+"failed" = "Failed";
+
+// Main message
+"show_your_resolve" = "Show your resolve to earn.";
+
+// Challenge related
+"challenge_30_days" = "Start 30-Day Resolve Challenge";
+"challenge_success" = "Challenge Success!";
+"challenge_failed" = "Challenge Failed!";
+"challenge_continue" = "Continue";
+"remaining_days" = "Remaining: %d days";
+"target_amount" = "Target: $%d";
+"home_intro_text" = "Start your 30-day resolve journey and meet a new you!";
+"challenge_completed_message" = "Congratulations on completing the challenge!\\nLet's start a new challenge!";
+"challenge_failed_message" = "Challenge failed. To retry, please start a new challenge.";
+"video_time_not_set" = "Video playback time is not set. Please set the time in settings.";
+"waiting_for_playback" = "Waiting for playback...";
+"waiting_for_scheduled_time" = "Waiting for scheduled time";
+"next_playback_time" = "Next playback at %@.";
+
+"goal_achieved" = "Goal Achieved!";
+"continue_habit_tomorrow" = "Continue your habit from tomorrow";
+
+// Challenge flow alerts
+"challenge_select_credits" = "Select Resolve Credits";
+"challenge_select_credits_message" = "Please select the resolve credits required for the challenge.";
+"challenge_target_amount_title" = "Set Target Amount";
+"challenge_target_amount_message" = "Please enter your target earning amount for this challenge.";
+"challenge_target_placeholder" = "Target amount (e.g., 50000)";
+"challenge_set" = "Set";
+"challenge_start_title" = "Start Challenge";
+"challenge_start_message" = "Start 30-day challenge by spending %d resolve credits?\\nTarget amount: $%d";
+"challenge_start_button" = "Start";
+"challenge_success_title" = "Success";
+"challenge_start_success_message" = "Challenge started successfully!";
+"challenge_failed_title" = "Failed";
+"challenge_start_failed_message" = "Could not start challenge.\\nInsufficient resolve credits or\\nthere is already an active challenge.";
+"error_title" = "Error";
+"error_invalid_amount" = "Please enter a valid target amount.";
+"error_invalid_video_id" = "Invalid video ID.";
+"resolve_credit_1000" = "1000 Resolve Credits";
+"resolve_credit_5000" = "5000 Resolve Credits";
+"resolve_credit_10000" = "10000 Resolve Credits";
+
+// Tutorial
+"tutorial_step1" = "①Purchase Resolve Credits. This is your entry fee for the Resolve Challenge. Show your resolve to earn.";
+"tutorial_step2" = "Tap 'Start 30-Day Resolve Challenge'. Select your resolve amount to deposit.";
+"tutorial_step3" = "If you succeed in this Resolve Challenge, your credits will be returned and you can challenge again.";
+"tutorial_step4" = "If you fail midway, these credits will not be returned. Make your resolve and succeed no matter what.";
+"tutorial_go_to_wallet" = "Go to Wallet";
+"tutorial_go_to_home" = "Go to Home";
+
+// Settings
+"settings" = "Settings";
+"language" = "Language";
+"language_selection" = "Language Selection";
+"country" = "Country/Region";
+"country_selection" = "Country/Region Selection";
+"video_mode" = "Video Mode";
+"recommended" = "Recommended (Admin Keywords)";
+"keyword" = "Keyword (Custom Search)";
+"play_time" = "Play Time";
+"save_and_close" = "Save and Close";
+"admin_login" = "Admin Login";
+"settings_saved_title" = "Settings Saved";
+"settings_saved_message" = "Settings have been saved.";
+
+// Language change
+"language_changed_title" = "Language Changed";
+"language_changed_message" = "Language has been changed.";
+"restart_app" = "Close Now";
+
+// Termination recommendation
+"termination_recommendation_title" = "Restart Required";
+"termination_recommendation_message" = "App restart is required to apply the language change. Close the app now?";
+"later" = "Later";
+
+// Video
+"watch_now" = "Watch Now";
+"watch_again" = "Watch Again";
+"video_completed" = "Goal Achieved!";
+"continue_habit" = "Continue your habit from tomorrow";
+
+// Money
+"input_amount" = "Input Earned Amount";
+"input_amount_message" = "Please enter the amount you earned today";
+"amount_placeholder" = "Amount";
+"add" = "Add";
+
+// Wallet
+"wallet_current_balance" = "Current Resolve Credit Balance: %d Credits";
+"wallet_purchase_credits" = "Purchase Resolve Credits";
+"wallet_purchase_credits_amount" = "Purchase %@ Resolve Credits";
+"wallet_restore_purchases" = "Restore Purchases";
+"wallet_test_add_credits" = "Test: Add 1000 Resolve Credits";
+
+// Challenge tab
+"challenge_in_progress" = "In Progress";
+"continue_challenge_button" = "Continue (1000 Resolve Credits)";
+"test_challenge_success" = "Test: Challenge Success";
+"test_challenge_failure" = "Test: Challenge Failure";
+
+// Money amounts and goals
+"target" = "Target";
+"earned_amount" = "Earned Amount";
+"remaining_days_format" = "%d days remaining";
+"yen_format" = "$%d";
+"input_amount_alert_title" = "Input Earned Amount";
+"input_amount_alert_message" = "Please enter the amount you earned today";
+
+// ProfileViewController (Challenge tab)
+"continue_challenge_confirmation" = "Continue Challenge";
+"continue_challenge_confirmation_message" = "Continue challenge by spending %d resolve credits?";
+"continue_challenge_button_text" = "Continue";
+"challenge_continue_error" = "Error";
+"challenge_continue_error_message" = "Could not continue challenge. You may not have enough credits.";
+"challenge_start_new" = "Start Challenge";
+"challenge_start_new_message" = "Start a new challenge.";
+"challenge_continue_failed_today" = "Challenge failed. To retry, please start a new challenge.";
+"challenge_continue_failed_question" = "Will you give up here?";
+"sayings_failure" = "Will you give up here?";
+"sayings_success" = "Well done!";
+"challenge_status_in_progress" = "Challenge in Progress!";
+"challenge_status_failed" = "Challenge Failed!";
+"challenge_status_success" = "Challenge Success!";
+"challenge_completion_message" = "Congratulations! Will you challenge again?";
+"yes" = "Yes";
+"continue_text" = "Continue";
+
+// GuaranteePlanViewController
+"guarantee_plan" = "Guarantee Plan";
+"start_plan" = "Start Plan";
+"error" = "Error";
+
+// Sayings array
+"saying_0" = "Persistence pays off.";
+"saying_1" = "A journey of a thousand miles begins with a single step.";
+"saying_2" = "Rome wasn't built in a day.";
+"saying_3" = "Small efforts lead to great results.";
+"saying_4" = "If you give up, the game is over.";
+"saying_5" = "The road to success is always under construction.";
+"saying_6" = "Don't put off until tomorrow what you can do today.";
+"saying_7" = "Hard work always pays off.";
+"saying_8" = "Step by step, steadily.";
+"saying_9" = "To chase dreams, start with action.";
+"saying_10" = "Difficulties are opportunities for growth.";
+"saying_11" = "Failure is the foundation of success.";
+"saying_12" = "A believing heart opens the way.";
+"saying_13" = "Believe in yourself.";
+"saying_14" = "Limits are self-imposed.";
+"saying_15" = "No success without challenge.";
+"saying_16" = "No genius surpasses hard work.";
+"saying_17" = "The future starts today.";
+"saying_18" = "Action is truth.";
+"saying_19" = "Hope is the mother of effort.";
+"saying_20" = "Persistence is the key to success.";
+"saying_21" = "Small accumulations make big differences.";
+"saying_22" = "Move forward towards your goals.";
+"saying_23" = "Win the battle against yourself.";
+"saying_24" = "Effort never betrays.";
+"saying_25" = "Success comes from preparation.";
+"saying_26" = "As long as you don't give up, the path will open.";
+"saying_27" = "Today is the youngest day.";
+"saying_28" = "Dreams don't run away, it's always us who run away.";
+"saying_29" = "See it through to the end.";
+
+// Free plan video controls
+"stop_video_confirmation_title" = "Stop Video?";
+"stop_video_confirmation_message" = "Are you sure you want to stop watching? Once you stop, you won't be able to watch again.";
+"stop_video" = "Stop";
+
+// Background notifications (legacy - now used for task kill warnings)
+"background_notification_title" = "Video Time Reminder";
+"background_notification_message" = "Tap to watch your daily video. Background notifications may be delayed if the app isn't running.";
+
+// Task kill warning notifications
+"task_kill_warning_title" = "App Abnormal Exit Detected";
+"task_kill_warning_message" = "The app may have exited unexpectedly. This could affect your habit continuity.";
+
+// Daily watch reminder notifications
+"daily_watch_reminder_title" = "Video Watch Reminder";
+"daily_watch_reminder_message" = "You haven't completed 5+ minutes of video watching today. Please watch a video to continue your challenge.";
+
+// Daily alarm notifications
+"daily_notification_title" = "Good morning!";
+"daily_notification_body" = "It's time to watch your video.";
+"notification_play_action" = "Play";
+
+// Mission failure notifications
+"mission_failed_title" = "Mission Failed.";
+"mission_failed_message" = "But your effort doesn't become zero. Will you end here?";
+
+// Admin interface
+"admin_password_label" = "Administrator Password";
+"admin_password_placeholder" = "Enter Password";
+"admin_login_button" = "Login";
+"admin_panel_title" = "Admin Panel";
+"admin_save_button" = "Save";
+"admin_keyword_management" = "Recommended Video Keyword Management";
+"admin_keyword_description" = "Keywords used for recommended mode and keyword mode.\nPlease enter in Japanese. Automatically translated according to user's language settings.";
+"admin_add_keyword" = "+ Add Keyword";
+"admin_delete_button" = "Delete";
+"admin_save_complete" = "Save Complete";
+"admin_keywords_updated" = "Recommended video keywords updated";
+"admin_keyword_placeholder" = "Search Keyword (Japanese)";
+"admin_password_incorrect" = "Incorrect password.";
+
+// Plan status
+"plan_status_title" = "Plan Progress";
+"mission_complete_today" = "Complete Today's Mission";
+"streak_progress_format" = "Consecutive Achievement: %d / 30 days";
+"status_refunded" = "Refunded";
+"status_charged" = "Charged";
+"deadline_format" = "Next playback deadline: %@";
+"no_deadline_set" = "No playback deadline set";

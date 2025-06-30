@@ -1,0 +1,261 @@
+/* 
+  Localizable.strings (Chinese Simplified)
+  YouStarterMVP
+*/
+
+// Tab titles
+"tab_home" = "主页";
+"tab_results" = "成果";
+"tab_challenge" = "决心挑战";
+"tab_wallet" = "钱包";
+"tab_settings" = "设置";
+
+// Common
+"ok" = "确定";
+"cancel" = "取消";
+"save" = "保存";
+"close" = "关闭";
+"next" = "下一步";
+"skip" = "跳过";
+"start" = "开始";
+"complete" = "完成";
+"failed" = "失败";
+
+// Main message
+"show_your_resolve" = "展现你赚钱的决心。";
+
+// Challenge related
+"challenge_30_days" = "开始30天决心挑战";
+"challenge_success" = "挑战成功！";
+"challenge_failed" = "挑战失败！";
+"challenge_continue" = "继续";
+"remaining_days" = "剩余：%d天";
+"target_amount" = "目标金额：%d元";
+
+// Tutorial
+"tutorial_step1" = "①购买决心积分。这是决心挑战的入场费。展现你赚钱的决心。";
+"tutorial_step2" = "点击开始30天决心挑战。选择你要投入的决心金额。";
+"tutorial_step3" = "如果你在决心挑战中成功，积分将会返还，你可以再次挑战。";
+"tutorial_step4" = "如果中途失败，这些积分将不会返还。下定决心，无论如何都要成功。";
+
+// Settings
+"settings" = "设置";
+"language" = "语言";
+"language_selection" = "语言选择";
+"video_mode" = "视频模式";
+"recommended" = "推荐";
+"keyword" = "关键词";
+"play_time" = "播放时间";
+"save_and_close" = "保存并关闭";
+"admin_login" = "管理员登录";
+
+// Language change
+"language_changed_title" = "语言已更改";
+"language_changed_message" = "语言已更改。";
+"restart_app" = "立即关闭";
+
+// Termination recommendation
+"termination_recommendation_title" = "需要重启";
+"termination_recommendation_message" = "需要重启应用以应用语言更改。现在关闭应用吗？";
+"later" = "稍后";
+
+// Video
+"watch_now" = "立即观看";
+"watch_again" = "再次观看";
+"video_completed" = "目标达成！";
+"continue_habit" = "从明天起继续你的习惯";
+"waiting_for_playback" = "等待播放中...";
+"waiting_for_scheduled_time" = "等待预定时间";
+"next_playback_time" = "下次播放时间：%@。";
+
+
+// Money
+"input_amount" = "输入赚取金额";
+"input_amount_message" = "请输入你今天赚取的金额";
+"amount_placeholder" = "金额";
+"add" = "添加";
+
+// Mission failure notifications
+"mission_failed_title" = "任务失败了。";
+"mission_failed_message" = "但是努力不会变成零。你要在这里结束吗？";
+
+// Admin interface
+"admin_password_label" = "管理员密码";
+"admin_password_placeholder" = "输入密码";
+"admin_login_button" = "登录";
+"admin_panel_title" = "管理员面板";
+"admin_save_button" = "保存";
+"admin_keyword_management" = "推荐视频关键词管理";
+"admin_keyword_description" = "推荐模式和关键词模式使用的关键词。\n请用日文输入。将根据用户的语言设置自动翻译。";
+"admin_add_keyword" = "+ 添加关键词";
+"admin_delete_button" = "删除";
+"admin_save_complete" = "保存完成";
+"admin_keywords_updated" = "推荐视频关键词已更新";
+"admin_keyword_placeholder" = "搜索关键词（日文）";
+"admin_password_incorrect" = "密码错误。";
+
+// Plan status
+"plan_status_title" = "计划进度";
+"mission_complete_today" = "完成今日任务";
+"streak_progress_format" = "连续达成：%d / 30 天";
+"status_refunded" = "已退款";
+"status_charged" = "已收费";
+"deadline_format" = "下次播放截止时间：%@";
+"no_deadline_set" = "未设置播放截止时间";
+
+// Error handling
+"error_title" = "错误";
+
+// Country/Region selection
+"country" = "国家/地区";
+"country_selection" = "国家/地区选择";
+
+// Additional common terms
+"wallet_current_balance" = "当前决心积分余额：%d 积分";
+"wallet_purchase_credits" = "购买决心积分";
+"wallet_purchase_credits_amount" = "购买 %@ 决心积分";
+"wallet_restore_purchases" = "恢复购买";
+"wallet_test_add_credits" = "测试：添加1000决心积分";
+
+// Challenge tab
+"challenge_in_progress" = "进行中";
+"continue_challenge_button" = "继续（1000决心积分）";
+"test_challenge_success" = "测试：挑战成功";
+"test_challenge_failure" = "测试：挑战失败";
+
+// ProfileViewController (Challenge tab)
+"continue_challenge_confirmation" = "继续挑战";
+"continue_challenge_confirmation_message" = "花费%d决心积分继续挑战吗？";
+"continue_challenge_button_text" = "继续";
+"challenge_continue_error" = "错误";
+"challenge_continue_error_message" = "无法继续挑战。您可能没有足够的积分。";
+"challenge_start_new" = "开始挑战";
+"challenge_start_new_message" = "开始新的挑战。";
+"challenge_continue_failed_today" = "挑战失败。要重试，请开始新的挑战。";
+"challenge_continue_failed_question" = "你要在这里放弃吗？";
+"sayings_failure" = "你要在这里放弃吗？";
+"sayings_success" = "做得好！";
+"challenge_status_in_progress" = "挑战进行中！";
+"challenge_status_failed" = "挑战失败！";
+"challenge_status_success" = "挑战成功！";
+"challenge_completion_message" = "恭喜！你要再次挑战吗？";
+"yes" = "是";
+"continue_text" = "继续";
+
+// Daily alarm notifications
+"daily_notification_title" = "早上好！";
+"daily_notification_body" = "该看视频了。";
+"notification_play_action" = "播放";
+
+// Task kill warning notifications
+"task_kill_warning_title" = "检测到应用异常退出";
+"task_kill_warning_message" = "应用可能意外退出。这可能会影响您的习惯连续性。";
+
+// Daily watch reminder notifications
+"daily_watch_reminder_title" = "视频观看提醒";
+"daily_watch_reminder_message" = "您今天还没有完成5分钟以上的视频观看。请观看视频以继续您的挑战。";
+
+// Home screen
+"home_intro_text" = "开始你的30天决心之旅，遇见全新的自己！";
+
+// Challenge messages
+"challenge_completed_message" = "恭喜完成挑战！\\n让我们开始新的挑战吧！";
+"challenge_failed_message" = "挑战失败。要重试，请开始新的挑战。";
+"video_time_not_set" = "视频播放时间未设置。请在设置中设置时间。";
+"waiting_for_playback" = "等待播放中...";
+"waiting_for_scheduled_time" = "等待预定时间";
+"next_playback_time" = "下次播放时间：%@。";
+"goal_achieved" = "目标达成！";
+"continue_habit_tomorrow" = "从明天开始继续你的习惯";
+
+// Challenge flow alerts
+"challenge_select_credits" = "选择决心积分";
+"challenge_select_credits_message" = "请选择挑战所需的决心积分。";
+"challenge_target_amount_title" = "设置目标金额";
+"challenge_target_amount_message" = "请输入此次挑战的目标金额。";
+"challenge_target_placeholder" = "目标金额（例：50000）";
+"challenge_set" = "设置";
+"challenge_start_title" = "开始挑战";
+"challenge_start_message" = "花费%d决心积分开始30天挑战吗？\\n目标金额：%d元";
+"challenge_start_button" = "开始";
+"challenge_success_title" = "成功";
+"challenge_start_success_message" = "挑战开始成功！";
+"challenge_failed_title" = "失败";
+"challenge_start_failed_message" = "无法开始挑战。\\n决心积分不足或\\n已有正在进行的挑战。";
+"error_title" = "错误";
+"error_invalid_amount" = "请输入有效的目标金额。";
+"error_invalid_video_id" = "无效的视频ID。";
+"resolve_credit_1000" = "1000决心积分";
+"resolve_credit_5000" = "5000决心积分";
+"resolve_credit_10000" = "10000决心积分";
+
+// Tutorial
+"tutorial_go_to_wallet" = "前往钱包";
+"tutorial_go_to_home" = "前往主页";
+
+// Settings
+"settings_saved_title" = "保存完成";
+"settings_saved_message" = "设置已保存。";
+
+// Money amounts and goals
+"target" = "目标";
+"earned_amount" = "赚取金额";
+"remaining_days_format" = "剩余%d天";
+"yen_format" = "%d元";
+"input_amount_alert_title" = "输入赚取金额";
+"input_amount_alert_message" = "请输入你今天赚取的金额";
+
+// GuaranteePlanViewController
+"guarantee_plan" = "保证计划";
+"start_plan" = "开始计划";
+"error" = "错误";
+
+// Sayings array (Chinese motivational sayings)
+"saying_0" = "坚持就是力量。";
+"saying_1" = "千里之行，始于足下。";
+"saying_2" = "罗马不是一日建成的。";
+"saying_3" = "小努力带来大成果。";
+"saying_4" = "放弃的话，比赛就结束了。";
+"saying_5" = "成功之路永远在建设中。";
+"saying_6" = "今日事今日毕。";
+"saying_7" = "努力总有回报。";
+"saying_8" = "一步一步，稳扎稳打。";
+"saying_9" = "追求梦想，从行动开始。";
+"saying_10" = "困难是成长的机会。";
+"saying_11" = "失败是成功之母。";
+"saying_12" = "相信的心能开辟道路。";
+"saying_13" = "相信自己。";
+"saying_14" = "极限是自己设定的。";
+"saying_15" = "没有挑战就没有成功。";
+"saying_16" = "没有天才能胜过努力。";
+"saying_17" = "未来从今天开始。";
+"saying_18" = "行动就是真理。";
+"saying_19" = "希望是努力之母。";
+"saying_20" = "坚持是成功的关键。";
+"saying_21" = "小积累造就大差异。";
+"saying_22" = "朝着目标前进。";
+"saying_23" = "战胜自己。";
+"saying_24" = "努力不会背叛。";
+"saying_25" = "成功来自准备。";
+"saying_26" = "只要不放弃，路就会开。";
+"saying_27" = "今天是最年轻的一天。";
+"saying_28" = "梦想不会逃跑，逃跑的总是自己。";
+"saying_29" = "坚持到底。";
+
+// Free plan video controls
+"stop_video_confirmation_title" = "停止视频？";
+"stop_video_confirmation_message" = "确定要停止观看吗？一旦停止，就无法再次观看。";
+"stop_video" = "停止";
+
+// Background notifications (legacy - now used for task kill warnings)
+"background_notification_title" = "视频播放时间提醒";
+"background_notification_message" = "点击观看今日视频。如果应用未运行，后台通知可能会延迟。";
+
+// Plan status
+"plan_status_title" = "计划进度";
+"mission_complete_today" = "完成今日任务";
+"streak_progress_format" = "连续达成：%d / 30天";
+"status_refunded" = "已退款";
+"status_charged" = "已收费";
+"deadline_format" = "下次播放截止时间：%@";
+"no_deadline_set" = "未设置播放截止时间";

@@ -1,0 +1,42 @@
+# Xcode ビルド生成物
+DerivedData/
+build/
+*.xcworkspace
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# SwiftPM
+Packages/
+.swiftpm/
+
+# fastlane や環境変数
+fastlane/AuthKey_*.p8
+fastlane/report.xml
+fastlane/README.md
+.env
+
+# App Store Connect API Keys (セキュリティ重要)
+AuthKey_*.p8
+
+# Provisioning Profiles
+*.mobileprovision
+*.provisionprofile
+
+# Archives
+*.xcarchive
+
+# macOS が自動生成するファイル
+.DS_Store
+**/.DS_Store
+__MACOSX/
+**/__MACOSX/
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp

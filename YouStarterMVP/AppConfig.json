@@ -1,0 +1,174 @@
+{
+  "fallback_video_urls": [
+    {
+      "id": 0,
+      "title_ja": "フォールバック動画1",
+      "title_en": "Fallback Video 1",
+      "url": "ABQDLlf5sKk"
+    },
+    {
+      "id": 1,
+      "title_ja": "フォールバック動画2", 
+      "title_en": "Fallback Video 2",
+      "url": "dPIfu8lEJYA"
+    },
+    {
+      "id": 2,
+      "title_ja": "フォールバック動画3",
+      "title_en": "Fallback Video 3", 
+      "url": "NyhGDT26yno"
+    }
+  ],
+  "sayings": [
+    {
+      "id": 0,
+      "text_ja": "継続は力なり。",
+      "text_en": "Persistence pays off."
+    },
+    {
+      "id": 1,
+      "text_ja": "千里の道も一歩から。",
+      "text_en": "A journey of a thousand miles begins with a single step."
+    },
+    {
+      "id": 2,
+      "text_ja": "ローマは一日にして成らず。",
+      "text_en": "Rome wasn't built in a day."
+    },
+    {
+      "id": 3,
+      "text_ja": "小さな努力が大きな成果を生む。",
+      "text_en": "Small efforts lead to great results."
+    },
+    {
+      "id": 4,
+      "text_ja": "諦めたらそこで試合終了だよ。",
+      "text_en": "If you give up, the game is over."
+    },
+    {
+      "id": 5,
+      "text_ja": "成功への道は常に建設中。",
+      "text_en": "The road to success is always under construction."
+    },
+    {
+      "id": 6,
+      "text_ja": "今日できることを明日に延ばすな。",
+      "text_en": "Don't put off until tomorrow what you can do today."
+    },
+    {
+      "id": 7,
+      "text_ja": "努力は必ず報われる。",
+      "text_en": "Hard work always pays off."
+    },
+    {
+      "id": 8,
+      "text_ja": "一歩ずつ、着実に。",
+      "text_en": "Step by step, steadily."
+    },
+    {
+      "id": 9,
+      "text_ja": "夢を追うなら、まず行動から。",
+      "text_en": "To chase dreams, start with action."
+    },
+    {
+      "id": 10,
+      "text_ja": "困難は成長の機会。",
+      "text_en": "Difficulties are opportunities for growth."
+    },
+    {
+      "id": 11,
+      "text_ja": "失敗は成功のもと。",
+      "text_en": "Failure is the foundation of success."
+    },
+    {
+      "id": 12,
+      "text_ja": "信じる心が道を拓く。",
+      "text_en": "A believing heart opens the way."
+    },
+    {
+      "id": 13,
+      "text_ja": "自分を信じろ。",
+      "text_en": "Believe in yourself."
+    },
+    {
+      "id": 14,
+      "text_ja": "限界は自分で作るもの。",
+      "text_en": "Limits are self-imposed."
+    },
+    {
+      "id": 15,
+      "text_ja": "挑戦なくして成功なし。",
+      "text_en": "No success without challenge."
+    },
+    {
+      "id": 16,
+      "text_ja": "努力に勝る天才なし。",
+      "text_en": "No genius surpasses hard work."
+    },
+    {
+      "id": 17,
+      "text_ja": "未来は今日から始まる。",
+      "text_en": "The future starts today."
+    },
+    {
+      "id": 18,
+      "text_ja": "行動こそが真実。",
+      "text_en": "Action is truth."
+    },
+    {
+      "id": 19,
+      "text_ja": "希望は努力の母。",
+      "text_en": "Hope is the mother of effort."
+    },
+    {
+      "id": 20,
+      "text_ja": "継続こそが成功の鍵。",
+      "text_en": "Persistence is the key to success."
+    },
+    {
+      "id": 21,
+      "text_ja": "小さな積み重ねが大きな差を生む。",
+      "text_en": "Small accumulations make big differences."
+    },
+    {
+      "id": 22,
+      "text_ja": "目標に向かって前進あるのみ。",
+      "text_en": "Move forward towards your goals."
+    },
+    {
+      "id": 23,
+      "text_ja": "自分との戦いに勝て。",
+      "text_en": "Win the battle against yourself."
+    },
+    {
+      "id": 24,
+      "text_ja": "努力は裏切らない。",
+      "text_en": "Effort never betrays."
+    },
+    {
+      "id": 25,
+      "text_ja": "成功は準備から生まれる。",
+      "text_en": "Success comes from preparation."
+    },
+    {
+      "id": 26,
+      "text_ja": "諦めない限り、道は開ける。",
+      "text_en": "As long as you don't give up, the path will open."
+    },
+    {
+      "id": 27,
+      "text_ja": "今日が一番若い日。",
+      "text_en": "Today is the youngest day."
+    },
+    {
+      "id": 28,
+      "text_ja": "夢は逃げない、逃げるのはいつも自分だ。",
+      "text_en": "Dreams don't run away, it's always us who run away."
+    },
+    {
+      "id": 29,
+      "text_ja": "最後までやり遂げろ。",
+      "text_en": "See it through to the end."
+    }
+  ]
+}
