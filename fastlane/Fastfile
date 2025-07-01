@@ -1,0 +1,139 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Disable non-exempt encryption compliance for App Store submission"
+  lane :disable_encryption_compliance do
+    # Step 1: Update Info.plist to add ITSAppUsesNonExemptEncryption key
+    info_plist_path = "./YouStarterMVP/Info.plist"
+    
+    UI.message("Updating Info.plist to disable non-exempt encryption...")
+    
+    # Use set_info_plist_value to add/update the encryption key
+    set_info_plist_value(
+      path: info_plist_path,
+      key: "ITSAppUsesNonExemptEncryption",
+      value: false
+    )
+    
+    UI.success("Successfully added ITSAppUsesNonExemptEncryption = false to Info.plist")
+    
+    # Step 2: Commit changes to Git
+    UI.message("Committing changes to Git...")
+    
+    begin
+      # Add all changes
+      sh("git add .")
+      
+      # Commit with descriptive message
+      sh('git commit -m "Disable non-exempt encryption compliance
+
+- Add ITSAppUsesNonExemptEncryption = false to Info.plist
+- Required for App Store submission to skip encryption export compliance
+- Automated via Fastlane disable_encryption_compliance lane
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+"')
+      
+      # Push to main branch
+      sh("git push origin main")
+      
+      UI.success("Successfully committed and pushed changes to main branch")
+      
+    rescue => ex
+      UI.error("Git operation failed: #{ex.message}")
+      if ex.message.include?("nothing to commit")
+        UI.message("No changes to commit - ITSAppUsesNonExemptEncryption may already be set")
+      else
+        raise ex
+      end
+    end
+    
+    UI.success("🎉 Encryption compliance disabled successfully!")
+    UI.message("Next steps:")
+    UI.message("1. Archive your app in Xcode")
+    UI.message("2. Upload to App Store Connect")
+    UI.message("3. The encryption export compliance question will be automatically answered")
+  end
+
+  desc "Build and upload app to App Store Connect with encryption compliance disabled"
+  lane :release do
+    # First disable encryption compliance
+    disable_encryption_compliance
+    
+    # Build and archive the app
+    build_app(
+      scheme: "YouStarterMVP",
+      configuration: "Release",
+      export_method: "app-store",
+      export_options: {
+        provisioningProfiles: {
+          # Add your bundle identifier and provisioning profile here
+          # "com.yourcompany.youstartermvp" => "YourProvisioningProfile"
+        }
+      }
+    )
+    
+    # Upload to App Store Connect with encryption compliance settings
+    upload_to_app_store(
+      force: true,
+      reject_if_possible: true,
+      skip_metadata: false,
+      skip_screenshots: true,
+      export_compliance: {
+        uses_encryption: false,
+        encryption_updated: false
+      }
+    )
+  end
+
+  desc "Test lane to verify Fastlane setup"
+  lane :test_setup do
+    UI.message("🧪 Testing Fastlane setup...")
+    UI.message("Project directory: #{Dir.pwd}")
+    UI.message("Info.plist path: ./YouStarterMVP/Info.plist")
+    
+    if File.exist?("./YouStarterMVP/Info.plist")
+      UI.success("✅ Info.plist found")
+    else
+      UI.error("❌ Info.plist not found")
+    end
+    
+    if File.exist?("./YouStarterMVP.xcodeproj")
+      UI.success("✅ Xcode project found")
+    else
+      UI.error("❌ Xcode project not found")
+    end
+    
+    # Check git status
+    begin
+      git_status = sh("git status --porcelain", log: false)
+      if git_status.strip.empty?
+        UI.success("✅ Git working directory is clean")
+      else
+        UI.message("📝 Git has uncommitted changes:")
+        UI.message(git_status)
+      end
+    rescue => ex
+      UI.error("❌ Git status check failed: #{ex.message}")
+    end
+    
+    UI.success("🎉 Fastlane setup test completed!")
+  end
+end
